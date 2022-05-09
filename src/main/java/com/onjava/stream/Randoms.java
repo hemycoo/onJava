@@ -1,5 +1,8 @@
 package com.onjava.stream;
 
+
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.Random;
 
 /**
@@ -7,7 +10,7 @@ import java.util.Random;
  * 声明式编程是声明要做什么，而不是指明每一步该如何做，同函数式编程风格。
  * 命令式编程是指明每一步该如何做，而不是声明要做什么，理解上会更难。
  */
-
+@Slf4j
 public class Randoms {
 
     public static void main(String[] args) {
@@ -33,7 +36,7 @@ public class Randoms {
      *
      */
     public static void imperativeProgramming() {
-
+        log.info("命令式编程测试");
     }
 
 }
